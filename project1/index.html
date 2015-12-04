@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Morning all!</title>
+  <title>Duck Hunt</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="greensock-js/src/minified/TweenMax.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-  <h1>Project One page</h1>
+  <h1>Project One</h1>
+  
+  <img class="background" src="images/duckhunt2.png" />
+  
+  <div class="content"> 
+    <img class="duck" src="images/duck.png" />
+    <img class="duck" src="images/duck.png" />
+    <img class="duck" src="images/duck.png" />
+    <img class="duck" src="images/duck.png" />
+  </div>
+<script type="text/javascript">
+  // Duck
+  TweenMax.from("duck", 1, {
+  opacity:0,
+  ease: Power0.easeNone
+  });
+</script>
 
 </body>
 </html>
