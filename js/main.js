@@ -104,11 +104,8 @@ $(document).ready(function(){
     } // End of switch()
   } // End of animDuck();
 
-
-
-  // On click screen flashes
-
   $('#content').on("click", function() {
+    console.log("I am flashy!")
       $('#content').addClass('flash');
       setTimeout(function() {
         $('#content').removeClass('flash');
@@ -238,9 +235,7 @@ $(document).ready(function(){
        for (i = totalBullets; i > bulletsLeft; i--) {
          $(bullets[i-1]).css({"fill":"#333"});
        }
-       console.log("There are " + bulletsLeft + " bullets left");
-
-       
+      
       if (bulletsLeft === 0) {
         $("#content").off("click");
         $(".duck").off("click");
