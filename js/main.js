@@ -106,10 +106,10 @@ $(document).ready(function(){
 
   $('#content').on("click", function() {
     console.log("I am flashy!")
-      $('#content').addClass('flash');
-      setTimeout(function() {
-        $('#content').removeClass('flash');
-      }, 100);
+    $('#content').addClass('flash');
+    setTimeout(function() {
+      $('#content').removeClass('flash');
+    }, 100);
   });
 
   function levelComplete(totalDucks, numOfBullets) {
