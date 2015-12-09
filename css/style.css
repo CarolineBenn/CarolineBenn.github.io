@@ -69,7 +69,7 @@ img.duck {
   position: relative;
   top: 90%;
   padding: 30px;
-  background: #1A6CB9;
+  background: rgba(26,108,185,0.7);
   border-radius: 50%  ;
 }
 

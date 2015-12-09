@@ -104,13 +104,7 @@ $(document).ready(function(){
     } // End of switch()
   } // End of animDuck();
 
-  $('#content').on("click", function() {
-    console.log("I am flashy!")
-    $('#content').addClass('flash');
-    setTimeout(function() {
-      $('#content').removeClass('flash');
-    }, 100);
-  });
+
 
   function levelComplete(totalDucks, numOfBullets) {
     currentLevel++;
@@ -244,7 +238,13 @@ $(document).ready(function(){
       
     })
   } // End of therAreXBulletsLeft();
-
+  $('#content').on("click", function() {
+    console.log("I am flashy!")
+    $('#content').addClass('flash');
+    setTimeout(function() {
+      $('#content').removeClass('flash');
+    }, 100);
+  });
 
   function scoresConditionals(totalDucks, numOfBullets) {
     var totalBullets = totalDucks + numOfBullets 
