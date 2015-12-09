@@ -256,9 +256,6 @@ $(document).ready(function(){
     var bulletsLeft = totalBullets;
     numOfDucks = 0;
     $(".duck").one("click", function() {
-        setInterval(function() {
-          $(this.singleDuck).css({"background": random_hsl_color})
-        }, 100);
       soundManager.createSound({ url : 'sounds/quack.mp3' }).play();
       duckScore += 500;
       numOfDucks++;
@@ -281,7 +278,7 @@ $(document).ready(function(){
 
   function killDuck() {
     // Click a duck and it falls from the screen
-    $(".duck").one("click", function() {
+    $(".duck").one("click", function() { 
       $(this).animate().stop(true, false).delay(600).animate({"top":"95%"}, 1000, "swing");
     }) // end of full click function()
   }
