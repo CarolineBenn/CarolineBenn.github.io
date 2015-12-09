@@ -9,15 +9,15 @@
   <li>Javascript</li>
   <li>jQuery</li>
   <li>Google Fonts</li>
+  <li>Soundmanager</li>
 </ul>
 
-
-
 <h3>How It Works</h3>
-<p>A remake of the classic NES game! </p>
+<p>A remake of the classic NES game!</p>
+<p>Player One takes the gun. Kill all the ducks on your screen. Each duck shot will give you 500 points. Work your way through the levels and when prompted, Player Two will take the helm. Will Player Two have the higher score? Play to the end and find out...</p>
 
 <h3>Challenges &amp; Problems</h3>
-<p>At the beginning, scope. There were too many functions happening and my code was very messy. </p>
+<p>At the beginning, scope. There were too many functions happening and my code was very messy. Randomly generating the position of the ducks (accoring to 10 preset animation sequences) was tricky, but got that working with a switch statement.</p>
 
 <h3>Future Plans</h3>
 <p></p>

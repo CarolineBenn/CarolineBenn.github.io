@@ -278,8 +278,8 @@ $(document).ready(function(){
 
   function killDuck() {
     // Click a duck and it falls from the screen
-    $(".duck").one("click", function() { 
-      $(this).animate().stop(true, false).delay(600).animate({"top":"95%"}, 1000, "swing");
+    $(".duck").one("click", function() {
+      $(this).animate().stop(true, false).delay(600).animate({"top":"110%"}, 1000, "swing");
     }) // end of full click function()
   }
 
