@@ -8,7 +8,6 @@
   <li>Zurb Foundation</li>
   <li>Javascript</li>
   <li>jQuery</li>
-  <li>Google Fonts</li>
   <li>Soundmanager</li>
 </ul>
 
