@@ -17,6 +17,7 @@ $(document).ready(function(){
   var currentLevel = 0;
   var levelParams =  [[3, 5], 
                       [4, 3], 
+                      [6, 0],
                       [3, 1]];
   // levelParams[0][0] = l1 ducks
   // levelParams[0][1] = l1 bullets 
